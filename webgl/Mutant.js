@@ -230,7 +230,7 @@ class CharacterController {
             }
           }
           const loader = new FBXLoader(this.loadingManager)
-          loader.setPath('http://localhost:8080/three-pet/game/')
+          loader.setPath('http://localhost:8080/three-pet/game/') // some models source
 
           loader.load('mutant-idle.fbx', (a) => { onLoad('idle', a) })
           loader.load('mutant-run.fbx', (a) => { onLoad('run', a) })
