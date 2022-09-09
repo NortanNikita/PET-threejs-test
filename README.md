@@ -1,4 +1,4 @@
-# vuegl
+# three js with nuxt
 
 ## Build Setup
 
